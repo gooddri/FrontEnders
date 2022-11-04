@@ -1,0 +1,251 @@
+/* __________________________________________NAVBAR🔽_____________________________________ */
+
+.navbar {
+    padding: 0;
+ }
+ 
+ .container-fluid {
+     padding: 1rem 5rem;
+ }
+ 
+ .container-fluid a{
+     color: var(--letra-escura);
+ }
+ 
+ .navbar-brand {
+     font-size: 2rem;
+     margin-left: 5.5rem;
+ }
+ 
+ .navbar-collapse {
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ .nav-item {
+     margin-right: 6rem;
+     font-size: 1.5rem;
+    
+ } 
+ 
+ #home{
+     color: var(--letra-escura);
+ }
+ 
+ 
+
+/* __________________________________________NAVBAR🔼_____________________________________  */
+
+/* __________________________________________________________________________________________ */
+
+/* __________________________________________MAIN🔽_____________________________________ */
+
+/* _______________Contato _________________*/
+
+main{
+    background:#16213e1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   
+
+}
+
+.contato_container {
+    display: flex;
+    width: 930px;
+    padding: 1rem;
+    padding-top: 2rem;
+    min-width: 100%;
+    height: 100%;
+    
+}
+
+
+/* imagem */
+
+.contato_img{
+    width: 50%;
+    display: flex;
+    box-shadow: 0 1px 2px #b2b2b2;
+}
+
+.contato_img img{
+    width: 100%; 
+}
+
+
+/*  Formulario */
+
+.contato_formulario{
+    background-color: rgb(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 18px 102px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 1px 2px #b2b2b2;
+}
+
+.contato_formulario form {
+    margin: 20px 0;
+}
+
+form .contato_grupo{
+    margin-bottom: 15px;
+}
+
+form .contato_grupo label {
+    color: #3d3d3d;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* Quadrado input */
+
+form .contato_grupo input {
+    width: 100%;
+    height: 47px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+}
+
+
+ /* input mensagem */
+
+form .contato_grupo textarea{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 10px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease; 
+}
+
+form .contato_grupo input:focus{
+    border-color: black;
+}
+
+
+/* Botão */
+
+form .contato_grupo button{
+    width: 100%;
+    height: 47px; 
+    background-color:  #E94560;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+   cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+/* _______________Equipe _________________*/
+
+/* Titulo "nossa equipe" */
+
+.titulo_container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #16213E;
+    
+}
+.titulo_equipe{
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+/* Imagens e redes sociais "nossa equipe" */
+
+.equipe_container {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8rem;
+}
+
+.ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2rem;
+}
+
+.equipe_img img{
+    height: 330px;
+}
+   
+
+/* __________________________________________MAIN🔼_____________________________________  */
+
+/* __________________________________________________________________________________________ */
+
+/* _________________________________________RODAPE🔽_____________________________________ */
+
+.rodape {
+    background-color: #152645;
+    background-image: linear-gradient(180deg, #152645 3%, #16213e 54%);
+    width: 100%;
+    height: 40rem;
+    
+    color: var(--botao-destaque);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 10rem;
+   
+}
+
+.contao-rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-li {
+    font-size: 1.3rem;
+    color: var(--letra-clara);
+    padding-top: 2rem;
+}
+
+.info-li {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--letra-clara);
+    padding-top: 2rem;
+}
+
+.lista-info a {
+    text-decoration: none;
+}
+
+
+/* __________________________________________RODAPE🔼_____________________________________  */
+
+/* __________________________________________________________________________________________ */
+
+
+
+
