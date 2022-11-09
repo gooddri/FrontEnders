@@ -1,0 +1,382 @@
+
+/* _______________________________________INÍCIO_NAVBAR🔽_____________________________________ */
+
+.navbar {
+  padding: 0;
+  
+}
+
+.container-fluid {
+  padding: 1rem 5rem;
+   
+}
+
+.container-fluid a{
+   color: var(--letra-escura);
+}
+
+.navbar-brand {
+   font-size: 2rem;
+   margin-left: 5.5rem;
+}
+
+.navbar-collapse {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.nav-item {
+   margin-right: 6rem;
+   font-size: 1.5rem;
+   text-decoration: none;
+} 
+
+#home{
+   color: var(--letra-escura);
+}
+
+/* _______________________________________FIM_NAVBAR🔼_____________________________________  */
+
+
+
+/* _______________________________________INÍCIO_MAIN🔽_____________________________________ */
+
+main{
+  background-color: #16213e1d;
+}
+
+.textos {
+    width: 80%;
+    height: 50rem;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10rem 12rem;
+    color: var( --botao-destaque);
+}
+
+.minha-sec-pai{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #16213e;
+        height: 600px;
+        padding-left: 50px;
+        padding-top: 100px;
+        
+}
+
+
+.minha-div1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+
+}
+
+.minha-div2{
+color: #fafafa;
+margin-top: 50px;
+margin-left: 70px;
+}
+
+.meu-bt{
+    margin-top: 30px;
+    padding: 0 0 0 0;
+    height: 58px;
+    width: 219px;
+    font-size: medium;
+    border-radius: 20px;
+   /* border: solid 2px #e94560;*/
+    background-color: #e94560;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #242323;
+    transition: all 1s ease;
+
+}
+
+
+
+.minha-foto1{
+    
+        display: flex;
+        flex-direction: row;
+        margin-top: -115px;
+        width: 848px;
+        /*height: 563px;*/
+        
+    }
+
+
+
+.parallax{
+    background-image: url(../img/reuniaogrande.jpeg);
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.minha-div3{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+
+.meu-titulo{
+font-size: 50px;
+margin-top: 60px;
+
+}
+/* -----------------------------------------------planos------------------------------------- */
+a{
+    font-size: 18px;
+    /*font-family:'Open Sans';*/
+      color: white;
+      text-decoration: none;
+  
+  }
+  
+  input:focus,textarea:focus,select:focus{
+    border:1px solid #fafafa;
+    -webkit-box-shadow:0 0 6px #9919aa;
+    -moz-box-shadow:0 0 5px #007eff;
+    box-shadow:0 0 5px #007eff;
+    outline: none;
+  }
+  
+  sup{
+  
+    font-size: 40px;
+  }
+  
+  #ul{
+    list-style: none;
+    font-size: 15px;
+    font-family:'Open Sans';
+    color: #9095aa;
+    padding: 0px;
+    margin: 0px;
+  
+  
+  }
+  
+  
+  .li{
+  border-bottom: 1px solid #16213e;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  height: 52px;
+  line-height: 52px;
+  }
+  
+  
+  #container{
+    width: 100%;
+    text-align:center;
+    padding: 70px;
+    /*margin-top: 200px;*/
+    gap: 10px;
+  }
+  
+  .whole{
+    display: inline-block;
+    
+  }
+  
+  
+  
+  .type{
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #16213e;
+    height: 62px;
+    border-bottom: 3px solid #16213e;
+  
+  }
+  
+  .type p{
+    font-family:'Open Sans';
+      font-weight: 800;
+    font-size: 29px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+  
+    
+  
+  }
+  
+  .plano{
+    width: 300px;
+    background-color: #fafafa;
+  
+    border-radius: 0px 0px 5px 5px;
+      font-family:'Open Sans';
+      font-style:condensed;
+      font-size: 90px;
+      color: #101214;
+      text-align: center;
+  
+  
+  }
+  .standard{
+    background-color: #16213e;
+    border-bottom: 3px solid #16213e;
+  }
+  
+  .ultimate{
+    background-color: #16213e;
+    border-bottom: 3px solid #16213e;
+  }
+  
+  
+  
+  .header{
+    border-bottom: 1px solid #494a5a;
+    padding-bottom: 39px;
+  
+  
+  }
+  
+  .header span{
+    font-size: 32px;
+  
+    
+  }
+  
+  .mes{
+    font-size: 14px;
+    color: #575757;
+    padding: 0px;
+    margin: -10px;
+  }
+  
+  .preco{
+    height:30px;
+  }
+  
+  .cart{
+    color: #242323c6;
+    position: relative;
+    border: solid #e94560;
+    background-color: #e94560;
+    border-radius: 0% 0% 50% 50%;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  
+
+  
+  .login_c{
+    width:500px;
+    background-color:#2b2937;
+    height:300px;
+    margin: 0 auto;
+    margin-top:40px;
+    border-radius:5px;
+    
+  }
+  
+  .login_c input{
+    width: 350px;
+  height: 40px;
+    border: 1px solid #494a5a;
+    margin-bottom:20px;
+    border-radius:5px;
+    padding-left: 10px;
+  
+  }
+  
+  
+  .login{
+    background-color: #BC4B1A;
+    border-bottom: 3px solid #7C3618;
+    width:100%;
+    
+  }
+  
+  .top{
+    margin-top:35px;
+  }
+  
+  .nodisplay{
+    opacity: 0.1;
+  }
+  
+  .selected{
+    background-color:#1F1B36;
+    margin:0px;
+    padding:0px;
+  }
+/* _______________________________________FIM_MAIN🔼_____________________________________  */
+
+
+
+
+
+
+/* _________________________________________RODAPÉ🔽_____________________________________ */
+
+.rodape {
+  background-color: #152645;
+  background-image: linear-gradient(180deg, #152645 3%, #16213e 54%);
+  width: 100%;
+  height: 40rem;
+
+  color: var(--botao-destaque);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-top: 10rem;
+  
+ 
+}
+
+.front {
+  color: var(--botao-destaque);
+}
+
+.contao-rodape {
+  display: flex;
+  flex-direction: column;
+  margin: -3.5rem 0 0 30rem;
+}
+
+.contao-rodape h1 {
+  color: var(--botao-destaque);
+  
+}
+
+.contato-li {
+  font-size: 1.3rem;
+  color: var(--letra-clara);
+  padding-top: 2rem;
+}
+
+.info h1 {
+  color: var(--botao-destaque);
+}
+
+.info-li {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: var(--letra-clara);
+  padding-top: 2rem;
+}
+
+.lista-info a {
+  text-decoration: none;
+}
+/* __________________________________________RODAPÉ🔼_____________________________________  */
