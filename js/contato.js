@@ -4,7 +4,6 @@ const form = document.getElementById('form')
     const emailRegex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
 
-    /* Nome  */
     function setError(index){
       campos[index].style.border = '2px solid #e63636';
       spans[index].style.display = 'block';
@@ -15,6 +14,8 @@ const form = document.getElementById('form')
       spans[index].style.display = 'none';
     }
 
+
+// Nome //
     function nameValidate(){
       if(campos[0].value.length < 3)
       {
@@ -27,7 +28,7 @@ const form = document.getElementById('form')
     }
 
 
-    /* E-mail */ 
+// E-mail //
 
     function emailValidate(){
       if(!emailRegex.test(campos[1].value))
@@ -41,7 +42,7 @@ const form = document.getElementById('form')
     }
 
 
-    /* Botão */ 
+// Botão //
 
     function enviar() {
       alert('Embreve entraremos em contato!')

@@ -147,6 +147,13 @@ form .input-group{
 
 /* label do formularios */
 
+.span-required {
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color:#e63636;
+    display: none;
+}
+
 form .input-group label{
     color: #3d3d3d;
     font-weight: bold;
