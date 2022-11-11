@@ -43,6 +43,6 @@ const form = document.getElementById('form')
 
     /* Botão */ 
 
-    function enviar(){
+    function enviar() {
       alert('Embreve entraremos em contato!')
     }
