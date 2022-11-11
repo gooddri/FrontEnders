@@ -105,6 +105,13 @@ form .contato_grupo label {
 
 /* Quadrado input */
 
+.span-required{
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color:#e63636;
+    display: none;
+}
+
 form .contato_grupo input {
     width: 100%;
     height: 47px;
