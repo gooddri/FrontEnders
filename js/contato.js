@@ -45,5 +45,5 @@ const form = document.getElementById('form')
 // Botão //
 
     function enviar() {
-      alert('Embreve entraremos em contato!')
+      alert('Em breve entraremos em contato!')
     }
