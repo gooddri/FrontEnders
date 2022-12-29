@@ -13,7 +13,7 @@ Com o intuito de criação de um site mais elaborado, com mais páginas de discr
 📦 **Desenvolvimento**
 - @JEDSPAIXAO
 - @Jonas-Sousa
-- <a href="https://github.com/sara-rosa"></a>
+- @sara-rosa
 - @SuelenPenha
 - @gooddri
  
