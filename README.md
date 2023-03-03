@@ -10,11 +10,13 @@ Com o intuito de criação de um site mais elaborado, com mais páginas de discr
 <img align="center" alt="Js" height="30"  width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 
 
-📦 **Desenvolvimento**
-- @JEDSPAIXAO
-- @Jonas-Sousa
-- @sara-rosa
-- @SuelenPenha
-- @gooddri
+
+  ## :people_holding_hands: Equipe
+- <a href="https://github.com/jonathanfalcao">@jonathanfalcao</a>
+- <a href="https://github.com/JEDSPAIXAO">@JEDSPAIXAO</a>
+- <a href="https://github.com/Jonas-Sousa">@Jonas-Sousa</a>
+- <a href="https://github.com/sara-rosa">@sara-rosa</a>
+- <a href="https://github.com/gooddri">@gooddri</a>
+- <a href="https://github.com/SuelenPenha">@SuelenPenha</a>
  
 📌 Link do projeto no github Pages: https://gooddri.github.io/FrontEnders/
